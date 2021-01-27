@@ -9,7 +9,10 @@ import NotFound from './components/pages/NotFound';
 import Test from './components/test/Test';
 import EditContact from './components/contacts/EditContact';
 
-import { Provider } from './context';
+import { Provider } from 'react-redux';
+import store from './store';
+
+// import { Provider } from './context';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 /* 
@@ -37,7 +40,7 @@ function App() {
 class App extends React.Component {
   render() {
     return (
-      <Provider>
+      <Provider store={store}>
         <Router>
           <div className="App">
             {/* <h1>My React App Component</h1> */}
