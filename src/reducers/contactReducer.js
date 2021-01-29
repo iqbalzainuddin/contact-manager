@@ -10,7 +10,7 @@ const initialState = {
         },
         {
           id: 2,
-          name: 'Karen Williams',
+          name: 'Karen Gilan',
           email: 'karen@gmail.com',
           phone: '444-444-4444'
         },

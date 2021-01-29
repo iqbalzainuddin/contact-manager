@@ -19,3 +19,5 @@ export const addContact = (contact) => {
         payload: contact
     }
 }
+
+// Edit contact soon
